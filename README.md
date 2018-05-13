@@ -1,4 +1,4 @@
-# Product Name
+# Smart Warning System
 
 A real-time automatic warning system for (unattentive) students in an ongoing lecture, each notification requiring a touchscreen-tap acknowledgement in a timed window. Full class report or specifically the blacklisted students are available to the teacher on demand.
 This application was developed as a course project for CS242/243 Software Engineering, IIT Guwahati. Detailed documentation namely SRS, Design, Code Review and Testing are available in the "documentation" sub-directory.
