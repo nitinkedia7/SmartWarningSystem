@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="io.github.nitinkedia7.smartwarningsystem.ProfessorActivity">
+
+    <Button
+        android:id="@+id/createSessionButton"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/classStatusButton"
+        android:layout_alignStart="@+id/classStatusButton"
+        android:layout_marginBottom="51dp"
+        android:text="Create Session" />
+
+
+    <Button
+        android:id="@+id/endSessionButton"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/classReviewButton"
+        android:layout_marginBottom="87dp"
+        android:text="End Session" />
+
+    <Button
+        android:id="@+id/classStatusButton"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/classReviewButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        android:text="Class Status" />
+
+    <Button
+        android:id="@+id/classReviewButton"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/endSessionButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="57dp"
+        android:text="Class Review" />
+</RelativeLayout>
