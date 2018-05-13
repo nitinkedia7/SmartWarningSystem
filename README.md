@@ -14,22 +14,20 @@ Google Account
 node with npm
 ```
 
-## Development setup
+### Development setup
 
-[Initialise Firebase Project using your Google Account](https://firebase.google.com/docs/android/setup)
+#### [Initialise Firebase Project using your Google Account](https://firebase.google.com/docs/android/setup)
 
-Local Android Studio Project
+#### Local Android Studio Project
 
-```sh
-git clone https://github.com/nitinkedia7/SmartWarningSystem.git
-Open the cloned folder in Android Studio
-```
+1. git clone https://github.com/nitinkedia7/SmartWarningSystem.git
+2. Open the cloned folder in Android Studio
 
-Firebase Cloud Function
+#### Firebase Cloud Function
 
-1. [Getting Started](https://firebase.google.com/docs/functions/get-started)
+1. [Getting Started for Cloud Functions](https://firebase.google.com/docs/functions/get-started)
 2. Use this [file](https://github.com/nitinkedia7/SmartWarningSystem/blob/master/index.js) as index.js
-3. firebase deploy
+3. Re-deploy
 
 ## App Usage Instructions
 
